@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="AfriCreatives is a premium African botanical hair-care brand focused on gentle, nourishing rituals for textured hair."
+    />
+    <title>AfriCreatives | Botanical Hair Care</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="announcement-bar">
+      <p>Botanical rituals for textured hair • Thoughtful care, rooted in heritage</p>
+    </div>
+
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a href="#top" class="brand" aria-label="AfriCreatives home">
+          <span class="brand-mark">A</span>
+          <span class="brand-text">AfriCreatives</span>
+        </a>
+
+        <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Toggle navigation">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav id="site-nav" class="site-nav" aria-label="Main navigation">
+          <a href="#shop">Shop</a>
+          <a href="#ingredients">Ingredients</a>
+          <a href="#routine">Routine</a>
+          <a href="#story">Our Story</a>
+          <a href="#journal">Journal</a>
+        </nav>
+
+        <div class="nav-actions">
+          <button class="search-button" type="button" aria-label="Search products" title="Search products">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10.5 3a7.5 7.5 0 015.9 12.8l4.4 4.4 1.4-1.4-4.4-4.4A7.5 7.5 0 1110.5 3zm0 2a5.5 5.5 0 100 11 5.5 5.5 0 000-11z"/></svg>
+          </button>
+          <button class="cart-button" type="button" aria-label="Shopping cart, 0 items" aria-expanded="false" aria-controls="cart-panel">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 18a2 2 0 110 4 2 2 0 010-4zm10 0a2 2 0 110 4 2 2 0 010-4zM6.2 6h14.5l-1.6 8.3a2 2 0 01-2 1.7H9.2a2 2 0 01-2-1.7L5.7 4.5H3V3h3.2l.9 4.5zm2.3 0l.6 3h8.8l.5-2.5H8.5z"/></svg>
+            <span class="cart-count">0</span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">African botanical hair rituals</p>
+            <h1>Rooted in African botanicals. Made for every coil.</h1>
+            <p class="lead">
+              Thoughtful oils, butters, and conditioners for the care rituals that help textured hair feel soft,
+              nourished, and easy to style.
+            </p>
+            <div class="hero-actions">
+              <a href="#shop" class="button primary">Shop now</a>
+              <a href="#ingredients" class="button secondary">Explore ingredients</a>
+            </div>
+            <ul class="hero-metrics" aria-label="Brand highlights">
+              <li><strong>6</strong><span>Care essentials</span></li>
+              <li><strong>5</strong><span>Featured botanicals</span></li>
+              <li><strong>3 steps</strong><span>Simple care ritual</span></li>
+            </ul>
+          </div>
+
+          <div class="hero-visual" aria-label="Product photography and botanical scene">
+            <div class="image-card card-large">
+              <img
+                src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=900&q=80"
+                alt="Portrait of a woman with natural textured hair"
+                fetchpriority="high"
+              />
+            </div>
+            <div class="image-card card-small card-top">
+              <img
+                src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=800&q=80"
+                alt="Natural hair-care inspiration"
+              />
+            </div>
+            <div class="product-badge">
+              <span>Featured ritual</span>
+              <strong>Moringa &amp; Baobab Botanical Hair Oil</strong>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="feature-strip">
+        <div class="container feature-list">
+          <div>
+            <span class="feature-icon">✦</span>
+            <p>Botanical ingredients</p>
+          </div>
+          <div>
+            <span class="feature-icon">✦</span>
+            <p>Texture-friendly formulas</p>
+          </div>
+          <div>
+            <span class="feature-icon">✦</span>
+            <p>Scalp care rituals</p>
+          </div>
+          <div>
+            <span class="feature-icon">✦</span>
+            <p>Low-stress styling support</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="shop section" id="shop">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Shop the collection</p>
+            <h2>Gentle staples for moisture, softness, and length-retention routines.</h2>
+            <p class="preview-note">Preview imagery and prices are illustrative. Final product details will be confirmed before launch.</p>
+          </div>
+
+          <div class="shop-toolbar">
+            <div class="filter-group" role="group" aria-label="Filter products by category">
+              <button class="filter-button active" type="button" data-filter="all" aria-pressed="true">All</button>
+              <button class="filter-button" type="button" data-filter="oil" aria-pressed="false">Oils</button>
+              <button class="filter-button" type="button" data-filter="butter" aria-pressed="false">Butters</button>
+              <button class="filter-button" type="button" data-filter="mask" aria-pressed="false">Masks</button>
+              <button class="filter-button" type="button" data-filter="serum" aria-pressed="false">Serums</button>
+            </div>
+
+            <label class="search-box" aria-label="Search products">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10.5 3a7.5 7.5 0 015.9 12.8l4.4 4.4 1.4-1.4-4.4-4.4A7.5 7.5 0 1110.5 3zm0 2a5.5 5.5 0 100 11 5.5 5.5 0 000-11z"/></svg>
+              <input id="product-search" type="search" placeholder="Search products" />
+            </label>
+          </div>
+
+          <div id="product-grid" class="product-grid" aria-live="polite" aria-busy="false"></div>
+        </div>
+      </section>
+
+      <section class="ingredients section" id="ingredients">
+        <div class="container">
+          <div class="section-heading left-aligned">
+            <p class="eyebrow">Our ingredients</p>
+            <h2>Rooted in heritage, selected for nourishment.</h2>
+          </div>
+
+          <div class="ingredient-grid">
+            <article class="ingredient-card">
+              <span class="ingredient-badge">Hibiscus</span>
+              <h3>Softening botanical blend</h3>
+              <p>Known for its rich botanical profile and silky, conditioning feel in deep hair treatments.</p>
+            </article>
+            <article class="ingredient-card">
+              <span class="ingredient-badge">Moringa</span>
+              <h3>Lightweight nourishment</h3>
+              <p>A silky oil choice for hydration, shine, and manageability, especially on dry ends and scalp.</p>
+            </article>
+            <article class="ingredient-card">
+              <span class="ingredient-badge">Shea butter</span>
+              <h3>Moisture seal</h3>
+              <p>Helps soften dry hair and smooth textured strands for easier styling and a softer feel.</p>
+            </article>
+            <article class="ingredient-card">
+              <span class="ingredient-badge">Baobab</span>
+              <h3>Softening care</h3>
+              <p>Rich in emollient properties for a softer feel and smoother-looking hair.</p>
+            </article>
+            <article class="ingredient-card">
+              <span class="ingredient-badge">Aloe vera</span>
+              <h3>Hydration boost</h3>
+              <p>Commonly used in scalp and hair formulas for a freshening moisture balance and silky finish.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="routine section" id="routine">
+        <div class="container routine-wrap">
+          <div class="routine-copy">
+            <p class="eyebrow">The AfriCreatives ritual</p>
+            <h2>Simple care for healthier-feeling texture.</h2>
+            <div class="routine-steps">
+              <div>
+                <span>01</span>
+                <div>
+                  <h3>Cleanse gently</h3>
+                  <p>Choose a gentle cleanse and pay attention to how your scalp feels afterward.</p>
+                </div>
+              </div>
+              <div>
+                <span>02</span>
+                <div>
+                  <h3>Seal in moisture</h3>
+                  <p>Apply a little butter or oil to damp hair if it suits your routine, focusing on softness and manageability.</p>
+                </div>
+              </div>
+              <div>
+                <span>03</span>
+                <div>
+                  <h3>Protect and style</h3>
+                  <p>Use low-tension styling methods and a hydrating layer to preserve your texture.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="routine-visual" aria-label="Routine imagery of skincare products and textured hair">
+            <img
+              src="https://images.unsplash.com/photo-1556228578-8c89e6adf883?auto=format&fit=crop&w=900&q=80"
+              alt="Botanical-inspired hair and skin care arranged on a surface"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="story section" id="story">
+        <div class="container story-grid">
+          <div class="story-image">
+            <img
+              src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=1100&q=80"
+              alt="African woman with natural curly hair smiling"
+            />
+          </div>
+          <div class="story-copy">
+            <p class="eyebrow">Our story</p>
+            <h2>Made to celebrate texture, culture, and natural beauty.</h2>
+            <p>
+              AfriCreatives brings heritage-inspired botanicals into contemporary care rituals for Afro-textured, curly, coily, and natural hair.
+            </p>
+            <p>
+              We believe thoughtful hair care starts with gentleness, consistency, and formulas that feel considered and comfortable to use.
+            </p>
+            <a href="#journal" class="button secondary">Read our journal</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="testimonials section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Our promise</p>
+            <h2>Care that puts your texture first.</h2>
+          </div>
+          <div class="testimonial-grid">
+            <article>
+              <h3>Texture-first by design</h3>
+              <p>Made with curly, coily, and Afro-textured hair routines in mind.</p>
+            </article>
+            <article>
+              <h3>Botanicals, thoughtfully chosen</h3>
+              <p>Explore familiar ingredients like shea, hibiscus, moringa, and baobab.</p>
+            </article>
+            <article>
+              <h3>Realistic, gentle care</h3>
+              <p>Support softness and manageability without promising overnight results.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="journal section" id="journal">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">The hair journal</p>
+            <h2>Natural care tips for textured-hair routines.</h2>
+          </div>
+
+          <div class="journal-grid">
+            <article class="journal-card">
+              <div class="journal-image journal-one"></div>
+              <div class="journal-copy">
+                <span>Hair health</span>
+                <h3>How to build a hydration-focused wash day</h3>
+                <a href="#routine">Explore the routine</a>
+              </div>
+            </article>
+            <article class="journal-card">
+              <div class="journal-image journal-two"></div>
+              <div class="journal-copy">
+                <span>Scalp care</span>
+                <h3>Gentle scalp-care habits between wash days</h3>
+                <a href="#ingredients">Explore ingredients</a>
+              </div>
+            </article>
+            <article class="journal-card">
+              <div class="journal-image journal-three"></div>
+              <div class="journal-copy">
+                <span>Styling</span>
+                <h3>Protective styling without extra tension</h3>
+                <a href="#routine">Explore the routine</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="newsletter section" id="newsletter">
+        <div class="container newsletter-box">
+          <div>
+            <p class="eyebrow">Stay in the loop</p>
+            <h2>Receive new drops, ingredients, and hair rituals.</h2>
+          </div>
+          <form id="newsletter-form" class="newsletter-form">
+            <label class="sr-only" for="newsletter-email">Email address</label>
+            <input id="newsletter-email" type="email" placeholder="Your email address" autocomplete="email" required />
+            <button type="submit" class="button primary">Join now</button>
+          </form>
+          <p id="newsletter-message" class="newsletter-message" role="status" aria-live="polite"></p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <a href="#top" class="brand footer-brand" aria-label="AfriCreatives home">
+            <span class="brand-mark">A</span>
+            <span class="brand-text">AfriCreatives</span>
+          </a>
+          <p>Premium African herbal hair care for healthy texture, hydration, and confidence.</p>
+        </div>
+        <div>
+          <h3>Shop</h3>
+          <ul>
+            <li><a href="#shop">Oils</a></li>
+            <li><a href="#shop">Butters</a></li>
+            <li><a href="#shop">Masks</a></li>
+            <li><a href="#shop">Serums</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>About</h3>
+          <ul>
+            <li><a href="#story">Our story</a></li>
+            <li><a href="#ingredients">Ingredients</a></li>
+            <li><a href="#journal">Journal</a></li>
+            <li><a href="#newsletter">Newsletter</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Our channels</h3>
+          <p>Social links will be added when our official accounts are ready.</p>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <p>© 2026 AfriCreatives. All rights reserved.</p>
+        <p class="footer-note">Store policies will be published before orders open.</p>
+      </div>
+    </footer>
+
+    <aside id="cart-panel" class="cart-panel" role="region" aria-label="Shopping cart summary" aria-hidden="true" inert>
+      <div class="cart-header">
+        <h3>Cart</h3>
+        <button class="close-cart" type="button" aria-label="Close cart">×</button>
+      </div>
+      <div class="cart-items">
+        <p class="empty-cart">Your cart is empty.</p>
+      </div>
+      <div class="cart-footer">
+        <div class="cart-total-row">
+          <span>Subtotal</span>
+          <strong>$0.00</strong>
+        </div>
+        <button type="button" class="button primary full-width checkout-button">Checkout</button>
+        <p class="checkout-message" role="status" aria-live="polite"></p>
+      </div>
+    </aside>
+
+    <script src="script.js"></script>
+  </body>
+</html>
